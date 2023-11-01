@@ -8,7 +8,11 @@ nav_order: 2
 ## Getting the client ID and client secret
 To allow authentication, you first need to register your application at Azure App Registrations:
 
-1. Login at [Azure Portal (App Registrations)](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade). Personal accounts may receive an authentication notification that can be ignored.
+1. Login at [Azure Portal (App Registrations)](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade). Personal accounts may receive an authentication notification that can be ignored. Note that you might need to select "Applications from personal account" if your account is linked to Github or other services that are not considered "personal".
+
+![image](https://github.com/RogerSelwyn/O365-HomeAssistant/assets/6918900/1cd84144-a31e-4961-bbd7-4cfee1620e01)
+
+![image](https://github.com/RogerSelwyn/O365-HomeAssistant/assets/6918900/8be2080e-a12a-490e-b553-1a85db112a69)
 
 2. Create a new App Registration. Give it a name. In Supported account types, choose one of the following as needed by your setup:
    * `Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)`.   
